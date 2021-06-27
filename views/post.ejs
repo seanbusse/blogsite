@@ -1,0 +1,8 @@
+<%- include('partials/header') -%>
+
+<% post.forEach(function(item) { %>
+<h1><%= item.title %></h1>
+<p><%= item.body %></p>
+<% }); %>
+
+<%- include('partials/footer') -%>
